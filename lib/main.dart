@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'pavlova.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Joemire Dave Loremas'),
+      home: const Palova(),
     );
   }
 }
