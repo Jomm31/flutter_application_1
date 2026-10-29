@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'edgeinsets.dart';
-
+import 'mainCrossAlignment.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: const main(),
       // home: const Palova(),
-      home: const Edgeinsets(),
+      // home: const Edgeinsets(),
+      home: const MainCrossAlignment(),
     );
   }
 }
