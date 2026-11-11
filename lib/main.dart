@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'edgeinsets.dart';
-import 'mainCrossAlignment.dart';
+import 'SocialMediaClone/auth/login.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,8 +18,11 @@ class MyApp extends StatelessWidget {
       ),
       // home: const main(),
       // home: const Palova(),
+      
       // home: const Edgeinsets(),
-      home: const MainCrossAlignment(),
+      // home: const MainCrossAlignment(),
+      // home: const Login(),
+      home: const LoginForm(),
     );
   }
 }
